@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias1">
+        <item>Bebidas</item>
+        <item>Comestibles</item>
+        <item>Fiambrería</item>
+        <item>Limpieza</item>
+        <item>Panadería</item>
+    </string-array>
+
+    <string-array name="categorias2">
+        <item>Todas</item>
+        <item>Bebidas</item>
+        <item>Comestibles</item>
+        <item>Fiambrería</item>
+        <item>Limpieza</item>
+        <item>Panadería</item>
+    </string-array>
+</resources>

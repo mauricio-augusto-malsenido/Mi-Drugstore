@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opModifcar"
+        android:title="Modificar" />
+    <item
+        android:id="@+id/opEliminar"
+        android:title="Eliminar" />
+    <item
+        android:id="@+id/opHabilitar"
+        android:title="Habilitar"
+        android:visible="false" />
+    <item
+        android:id="@+id/opDeshabilitar"
+        android:title="Deshabilitar"
+        android:visible="false" />
+    <item
+        android:id="@+id/opAnular"
+        android:title="Anular"
+        android:visible="false" />
+    <item
+        android:id="@+id/opRemitos"
+        android:title="Ver Remitos"
+        android:visible="false" />
+    <item
+        android:id="@+id/opCancelar"
+        android:title="Cancelar"
+        android:visible="false" />
+</menu>

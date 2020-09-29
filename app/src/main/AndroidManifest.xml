@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.midrugstore">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/drugstore50"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".Pantallas.Compras.PantallaModificarRemito"></activity>
+        <activity android:name=".Pantallas.Compras.PantallaDetalleRemito" />
+        <activity android:name=".Pantallas.Compras.PantallaNuevoRemito" />
+        <activity android:name=".Pantallas.Compras.PantallaRemitos" />
+        <activity android:name=".Pantallas.Compras.PantallaDetalleCompra" />
+        <activity android:name=".Pantallas.Proveedores.PantallaSeleccionarProveedor" />
+        <activity android:name=".Pantallas.Productos.PantallaSeleccionarProductoCompra" />
+        <activity android:name=".Pantallas.Compras.PantallaNuevaCompra" />
+        <activity android:name=".Pantallas.Compras.PantallaCompras" />
+        <activity android:name=".Pantallas.Ventas.PantallaDetalleVenta" />
+        <activity android:name=".Pantallas.Productos.PantallaSeleccionarProductoVenta" />
+        <activity android:name=".Pantallas.Ventas.PantallaNuevaVenta" />
+        <activity android:name=".Pantallas.Ventas.PantallaVentas" />
+        <activity android:name=".Pantallas.Proveedores.PantallaModificarProveedor" />
+        <activity android:name=".Pantallas.Proveedores.PantallaNuevoProveedor" />
+        <activity android:name=".Pantallas.Proveedores.PantallaDetalleProveedor" />
+        <activity android:name=".Pantallas.Proveedores.PantallaProveedores" />
+        <activity android:name=".Pantallas.Productos.PantallaDetalleProducto" />
+        <activity android:name=".Pantallas.Productos.PantallaModificarProducto" />
+        <activity android:name=".Pantallas.Productos.PantallaNuevoProducto" />
+        <activity android:name=".Pantallas.Productos.PantallaProductos" />
+        <activity android:name=".Pantallas.Principal.PantallaInicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pantallas.Principal.PantallaPrincipal" />
+    </application>
+
+</manifest>

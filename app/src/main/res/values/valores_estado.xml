@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados">
+        <item>Habilitado</item>
+        <item>Deshabilitado</item>
+    </string-array>
+    <string-array name="estadosFactura">
+        <item>No Anulada</item>
+        <item>Anulada</item>
+    </string-array>
+    <string-array name="estadosPedido">
+        <item>Espera</item>
+        <item>Completo</item>
+        <item>Incompleto</item>
+        <item>Cancelado</item>
+    </string-array>
+</resources>

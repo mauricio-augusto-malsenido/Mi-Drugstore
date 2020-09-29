@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opAtras"
+        android:icon="@mipmap/ic_action_back"
+        android:title="Atras"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/opEditar"
+        android:icon="@mipmap/ic_action_edit"
+        android:title="Editar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/opAnular"
+        android:icon="@mipmap/ic_action_discard"
+        android:title="Anular"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/opCancelar"
+        android:icon="@mipmap/ic_action_discard"
+        android:title="Cancelar"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/opRemitos"
+        android:icon="@mipmap/ic_action_view_as_list"
+        android:title="Ver Remitos"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>
